@@ -3,7 +3,8 @@ Página web desarrollada para comercio electrónico
 
 ### Este proyecto se inició con Create react app
 
-- Este proyecto se desarrollo en base al curso MERN  eccomerce from Scratch
+- Este proyecto se desarrollo en base al curso MERN  eccomerce from Scratch 
+- El deployment de este proyecto se presenta aqui: (https://eccommerceapp.herokuapp.com/)
 
 ## Script diponibles
 
@@ -29,3 +30,13 @@ yarn run build
 cd ..
 yarn start
 ```
+-Enviroments necesarios para el proyecto
+```
+NODE_ENV= development 
+PORT=5000
+MONGO_URI= 'uri mongo atlas'
+JWT_SECRET=abc123
+PAYPAL_CLIENT_ID= 'id paypal'
+```
+
+
