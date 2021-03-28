@@ -11,7 +11,7 @@
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --cwd frontend && npm run build --cwd frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --cwd ./frontend && npm run build --cwd ./frontend"
   },
   "author": "systems-patrick",
   "license": "MIT",
