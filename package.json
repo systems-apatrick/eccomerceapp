@@ -1,6 +1,9 @@
 {
   "name": "ecommerce",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.5"
+  },
   "description": "Desarrollo de un plataforma web para ecommerce (MERN)",
   "main": "server.js",
   "type": "module",
