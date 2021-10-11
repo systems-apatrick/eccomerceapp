@@ -27,7 +27,7 @@ yarn run server
 yarn run dev
 ```
 
-- Comando para construir la aplicaión modo producción en la carpeta build
+- Comando para construir la aplicación modo producción en la carpeta build
 
 ```
 cd frontend
@@ -51,7 +51,7 @@ API_KEY=
 API_SECRET=
 ```
 
-# Screenshot de la pagina Ecommerce
+# Screenshot de la página web Ecommerce
 
 #### Página Principal
 
