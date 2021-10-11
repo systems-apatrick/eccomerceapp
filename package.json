@@ -13,7 +13,9 @@
     "data:destroy": "node backend/seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install && yarn --cwd ./frontend install && yarn --cwd ./frontend run build"
   },
-  "engines": {},
+  "engines": {
+    "node": "16.5.0"
+  },
   "author": "systems-patrick",
   "license": "MIT",
   "dependencies": {
