@@ -55,7 +55,8 @@ router.post("/", upload.single("image"), async (req, res) => {
       console.log("File deleted!");
     });
     console.log("Se subio correctamente la imagen ");
-    res.json(image);
+    console.log(image);
+    res.send(image);
   } catch (error) {
     console.log("No se pudo subir las imagen: ", error);
     res.status(404);
