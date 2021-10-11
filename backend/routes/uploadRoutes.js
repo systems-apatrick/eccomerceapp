@@ -38,10 +38,6 @@ const upload = multer({
 });
 
 router.post("/", upload.single("image"), async (req, res) => {
-  console.log("llego esto =");
-  console.log(req.file);
-  console.log(req.body);
-
   const { name, description } = req.body;
   try {
     const result = await cloudinary.v2.uploader.upload(req.file.path, {

@@ -11,6 +11,7 @@ import userRoutes from "./routes/userRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 import uploadRoutes from "./routes/uploadRoutes.js";
 import connectCloudinary from "./config/cloudinary.js";
+
 dotenv.config();
 
 connectDB();
