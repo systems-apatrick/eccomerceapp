@@ -9,7 +9,7 @@ const connectCloudinary = async () => {
 
     console.log(conn);
     console.log(`Conectado a Cloudinary:  ${conn}`.cyan.underline);
-    return cloudinary;
+    return { cloudinary: "conectado" };
   } catch (error) {
     console.error(
       `Error en conexion: a Cloudinary: ${error.message}`.red.underline.bold

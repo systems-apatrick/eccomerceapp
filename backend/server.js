@@ -14,8 +14,8 @@ import connectCloudinary from "./config/cloudinary.js";
 
 dotenv.config();
 
-connectDB();
-connectCloudinary();
+const db = await connectDB();
+const fotos = await connectCloudinary();
 
 const app = express();
 
@@ -49,7 +49,7 @@ if (process.env.NODE_ENV === "production") {
   );
 } else {
   app.get("/", (req, res) => {
-    res.send("API is running....");
+    res.send({ api: "API is running....", db, fotos });
   });
 }
 
